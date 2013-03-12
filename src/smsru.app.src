@@ -1,0 +1,12 @@
+{application, smsru,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { smsru_app, []}},
+  {env, []}
+ ]}.
